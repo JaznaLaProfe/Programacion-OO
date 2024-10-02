@@ -1,0 +1,21 @@
+------------------------------------
+| Superheroe                       |
+|----------------------------------|
+| + nombre : String                |
+| + popularidad : int              |
+|----------------------------------|
+| + toString() : String            |
+| + equals(Object otro) : boolean  |
+------------------------------------
+
+
+-----------------------------------------------
+| Superheroe                                   |
+|----------------------------------------------|
+| + nombre : String                            |
+| + popularidad : int                          |
+|----------------------------------------------|
+| + Superheroe(String nombre, int popularidad) |
+| + toString() : String                        |
+| + equals(Object otro) : boolean              |
+------------------------------------------------
