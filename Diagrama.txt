@@ -1,0 +1,50 @@
+------------------------------------
+| Poder                            |
+|----------------------------------|
+| + nombre : String                |
+| + potenciaDestruccion : float    |
+|----------------------------------|
+| + toString() : String            |
+| + equals(Object otro) : boolean  |
+------------------------------------
+
+Algunos ejemplos de poderes:
+
+1. Rayo láser - Potencia de destrucción: 0.6
+2. Explosión de energía - Potencia de destrucción: 0.8
+3. Invisibilidad temporal - Potencia de destrucción: 0.2 (en este caso puede tener más impacto estratégico que destructivo)
+4. Onda sísmica - Potencia de destrucción: 0.9
+5. Congelamiento instantáneo - Potencia de destrucción: 0.7
+6. Super velocidad - Potencia de destrucción: 0.4
+7. Llamas infernales - Potencia de destrucción: 0.85
+8. Telekinesis - Potencia de destrucción: 0.5
+9. Control mental - Potencia de destrucción: 0.3 (más orientado a control que a destrucción directa)
+10. Barrera de energía - Potencia de destrucción: 0.1 (función más defensiva que ofensiva)
+
+
+--------------------------------------------------------
+| Jugador                                              |
+|------------------------------------------------------|
+| + nombre : String                                    |
+| + nivelVida : float                                  |
+| + poderes : Poder[]                                  |
+|------------------------------------------------------|
+| + Jugador(String nombre, int maximo)                 |
+| + toString() : String                                |
+| + equals(Object otro) : boolean                      |
+\ + agregarPoder(Poder nuevo): boolean                 |
+| + reemplaza(Poder nuevo, int ubicacion) : boolean    |
+-------------------------------------------------------
+Al crear un jugador su nivel de vida es 100
+
+
+
+
+
+
+
+
+
+
+
+
