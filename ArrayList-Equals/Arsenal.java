@@ -19,11 +19,10 @@ public class Arsenal {
     
     /**
      * Agrega un arma al arsenal validando que no se repitan
-     * @param nueva arma que se pretende agregar
-     * @return indicador lógico de éxito/fracaso
+     * @param nueva arma que se intenta agregar
+     * @return indicador de éxito/fracaso de la operación
      */
     public boolean agregarArma(Arma nueva){
-        // Verificar que el arma no esté repetida
         if (!this.armas.contains(nueva)){
             this.armas.add(nueva);
             return true;
@@ -32,10 +31,10 @@ public class Arsenal {
     }
     
     /**
-     * Retorna la cantidad de armas que cumple con el requisito
+     * Retornar la cantidad de armas cuyo poder de daño está dentro de los límites
      * @param minimo valor inicial del umbral
      * @param maximo valor final del umbral
-     * @return 
+     * @return cantidad de armas que cumplen con el requisito
      */
     public int cantidadUmbral(int minimo, int maximo){
         int total = 0;
